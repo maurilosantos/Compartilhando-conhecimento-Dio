@@ -1,14 +1,16 @@
 # JavaScript :duck:
 <img src="https://img.shields.io/badge/status-em construção-yellow">
 
-## Índice
+### Índice
 * [Funções](#funções)
 
 * [Objetos e Classes](#objetos-e-classes)
 
   
 
-#### Objetos e Classes
+### Objetos e Classes
+
+#### Classes
 
 > Na programação orientada a objetos (POO), uma classe é um modelo de código de programa extensível para criar objetos, fornecendo valores iniciais para o estado (variáveis dos membros) e implementações de comportamento (funções ou métodos dos membros). - Wikipédia.
 
