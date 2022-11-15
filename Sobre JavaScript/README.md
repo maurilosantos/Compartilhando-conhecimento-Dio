@@ -311,3 +311,24 @@ for (let fruit of fruits) {
 ```
 
 O `for..of` não dá acesso ao número do elemento atual indexado, apenas seu valor, mas na maioria dos casos isso é suficiente. E é mais rápido de fazer.
+
+### Importação e Exportação com JavaScript
+
+- Importando o código em um arquivo
+
+Como o back-end é escrito em node.js, podemos fazer uso de uma função chamada **require** que vai ser responsável por chamar o nosso módulo (arquivo) para dentro de outro arquivo js, assim a gente pode reutilizar uma função, objeto,classe... sem reescrever.
+
+```javascript
+const { gets, print } = require('./funcoes-auxiliares');
+
+```
+
+Porém para a função `require` funcionar devemos exportar lá o nosso outro arquivo de referência também pois só assim ficará visível ao outro.
+
+```javascript
+module.exports = { gets, print };
+```
+
+Com a utilização do `module.export` 
+
+O sistema de módulos do `Node.js` é responsável por criar o objeto `module.export` e o **export** aponta para esse objeto, podendo ser usado para **retornar funções, objetos e classes** bastando somente adicioná-los ao `module.export`.
