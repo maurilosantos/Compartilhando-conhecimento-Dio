@@ -1,4 +1,4 @@
-# JavaScript :duck:
+# JavaScript, alguns conceitos :duck:
 <img src="https://img.shields.io/badge/status-em construção-yellow">
 
 ### Índice
@@ -8,7 +8,45 @@
 
 * [Arrays e Estruturas de Repetição](#arrays-e-estruturas-de-repetição)
 
+* [Importação e Exportação com JavaScript](#importação-e-exportação-com-javascript)
+
   
+
+### Funções
+
+Muitas vezes, precisamos executar uma ação semelhante em muitos lugares do script.
+
+Por exemplo, precisamos mostrar uma mensagem bonita quando um visitante faz login, logout e talvez em outro lugar.
+
+As funções são os principais “blocos de construção” do programa. Eles permitem que o código seja chamado várias vezes sem repetição.
+
+*Declaração*:
+
+```javascript
+function showMessage(parameters, delimited, by, comma) {
+  alert( 'Olá github!' );
+}
+```
+
+Essa nova função pode ser chamada pelo nome: `showMessage()`.
+
+- Os valores passados para uma função como parâmetros são copiados para suas variáveis locais.
+
+- Uma função pode acessar variáveis externas. Mas funciona apenas de dentro para fora. Ou seja, o código fora da função não vê suas variáveis locais.
+
+- Uma função pode retornar um valor. Se não, então seu resultado é `undefined`.
+
+- Para tornar o código limpo e fácil de entender, é recomendável usar principalmente variáveis e parâmetros locais na função, não variáveis externas.
+
+  É sempre mais fácil entender uma função que obtém parâmetros, trabalha com eles e retorna um resultado do que uma função que não obtém parâmetros, mas modifica variáveis externas como efeito colateral.
+
+  Nomenclatura da função:
+
+  - Um nome deve descrever claramente o que a função faz. Quando vemos uma chamada de função no código, um bom nome nos dá instantaneamente uma compreensão do que ela faz e retorna.
+  - Uma função é uma ação, portanto, os nomes das funções geralmente são verbais.
+  - Existem muitos prefixos de função bem conhecidos, como , `create`... e `show`… assim por diante. Use-os para sugerir o que uma função faz.  `get`…  `check`…
+
+
 
 ### Objetos e Classes
 
