@@ -1,7 +1,16 @@
 # Protocolo HTTP e API :dromedary_camel:
 <img src="https://img.shields.io/badge/status-em construção-yellow">
 
-[TOC]
+### Índice
+
+- [O que é HTTP?](#o-que-é-http?)
+- [O que é um método HTTP?](#o-que-é-um-método-http?)
+- [Request headers](#request-headers)
+- [Request body](#request-body)
+- [Status Code](#status-code)
+- [Response Headers](#response-headers)
+- [Response Body](#response-body)
+- [Estrutura URL](#estrutura-url)
 
 #### O que é HTTP?
 
