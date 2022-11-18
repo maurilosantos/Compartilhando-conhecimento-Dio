@@ -25,7 +25,7 @@ Relembrando... Alguns comando do Prompt úteis:
 - Tecla TAB: auto-completa as palavras
 - ...
 
-#### Entendendo a estrutura
+### Entendendo a estrutura
 
 **SHA1:** A sigla "SHA'' significa secure hash algorithm (algoritmo de hash seguro), esse sistema foi criado por nada mais nada menos que a NSA (Agência nacional dos EUA). Para que eu consiga passar da forma mais simples possível (pelo menos nesse início), o SHA1 embaralha determinado arquivo, imagem ou texto para que seja gerado um conjunto de caracteres identificadores, caracteres esses que possuem 40 dígitos. Esses quarenta dígitos são sempre únicos. Se você pegar um texto enorme e passar ele por esse algoritmo, ele vai gerar esse conjunto de caracteres, se você alterar uma vírgula que seja desse texto, já será gerado outro conjunto. É assim que funciona a cada commit gerado.
 
@@ -45,4 +45,4 @@ Ele registra identificadores de blob, nomes de caminho e um pouco de metadados p
 
 ![Versão simples do modelo de dados do Git.](https://git-scm.com/book/en/v2/images/data-model-1.png)
 
-#### Chave SSH e Token
+### Chave SSH e Token
