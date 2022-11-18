@@ -6,6 +6,7 @@ Repositório onde vou compartilhar com vocês alguns conhecimentos/boas prática
 - **Introdução ao Desenvolvimento Moderno de Software**
 - **Programação e Pensamento Computacional**
 - **GIT/Github**
+- **Protocolo HTTP e API**
 - **JavaScript**
 - **React.js**
 
