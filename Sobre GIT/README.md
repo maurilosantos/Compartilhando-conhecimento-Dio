@@ -46,3 +46,5 @@ Ele registra identificadores de blob, nomes de caminho e um pouco de metadados p
 ![Versão simples do modelo de dados do Git.](https://git-scm.com/book/en/v2/images/data-model-1.png)
 
 ### Chave SSH e Token
+
+SSH é um protocolo que pode se conectar a servidores e serviços remotos e se autenticar neles.
