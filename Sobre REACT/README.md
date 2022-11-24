@@ -13,11 +13,9 @@ Breve introdução, sobre alguns conceitos extras importantes:
 
 ### Indice
 
-[História do React](#a-historia-do-react)
-
-[Componentes e Props](#componentes-e-props)
-
-[Ciclo de Vida](#ciclo-de-vida)
+- [História do React](#a-historia-do-react)
+- [Componentes e Props](#componentes-e-props)
+- [Ciclo de Vida](#estado-e-ciclo-de-vida)
 
 
 
@@ -89,7 +87,7 @@ Separamos o ciclo de vida do React em 4 etapas em que podemos fazer ações dura
 
 
 
-![](C:\Users\user\Desktop\Projetos\Dio\Compartilhando-conhecimento-Dio\Sobre REACT\assets\ciclo de vida.png)
+![](https://github.com/maurilosantos/Compartilhando-conhecimento-Dio/blob/main/Sobre%20REACT/assets/ciclo%20de%20vida.png?raw=true)
 
 
 
