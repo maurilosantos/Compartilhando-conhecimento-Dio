@@ -11,11 +11,16 @@ Breve introdução, sobre alguns conceitos extras importantes:
 
 **O que é o React DevTools? ** É uma extensão disponível para o Chrome, Firefox e também como um aplicativo independente que permite inspecionar a hierarquia de componentes do React nas Ferramentas do desenvolvedor do navegador.
 
+[Doc React](https://reactjs.org/docs/create-a-new-react-app.html)
+
 ### Indice
 
 - [História do React](#a-historia-do-react)
 - [Componentes e Props](#componentes-e-props)
 - [Ciclo de Vida](#estado-e-ciclo-de-vida)
+- [React CLI](#react-cli)
+- [Styled-Components 💅](#styled-components)
+- [Hooks Básicos](#hooks-basicos)
 
 
 
@@ -107,7 +112,7 @@ npm start
 
 Em um site acessamos várias páginas, como por exemplo, página inicial, contatos, sobre e perfil. Para navegar entre as páginas de uma aplicação React.JS precisaremos criar rotas, onde cada rota vai representar uma tela.
 
-Para trabalhar com rotas no React vamos utilizar um pacote chamado **React Router Dom** que precisa ser instalado no nosso projeto. É ele que nos auxiliará na criação da navegação.
+Para trabalhar com rotas no React vamos utilizar um pacote chamado **React Router Dom** que precisa ser instalado no projeto. É ele que nos auxiliará na criação da navegação.
 
 Com o projeto React já criado, faça:
 
@@ -115,3 +120,40 @@ Com o projeto React já criado, faça:
 npm install react-router-dom
 ```
 
+[Doc Router](https://v5.reactrouter.com/web/guides/quick-start)
+
+#### Styled-Components 💅
+
+Basicamente, styled components **é uma biblioteca que possibilita escrever códigos CSS dentro do JavaScript**. Com ele, você pode criar websites bonitos e funcionais. Além disso, ganhar mais agilidade e precisão no desenvolvimento web.
+
+E **para escrever CSS em JavaScript é necessário usar Tagged Templates Literals.** 
+
+**Vantagens**  :
+
+1. Os componentes são renderizados juntamente com a página, dessa maneira, apenas o CSS que será utilizado será injetado. Você carregará, portanto, somente o necessário. 
+
+2. Os nomes das classes são gerados automaticamente, assim, você não terá problemas de gerar nomes duplicados e abrir brechas para que bugs ocorram. 
+
+3. Todo o CSS fica no arquivo JavaScript, dessa maneira, **você encontra mais fácil o que precisa remover.** 
+
+[Doc Styled-components](https://styled-components.com)
+
+#### Hooks Básicos
+
+Hooks **é uma nova proposta que irá nos permitir utilizar estado, ciclo de vida, entre outras funcionalidades, sem a necessidade de escrevermos componentes com classe**. Organiza também a lógica utilizada dentro de cada componente. A proposta já foi aceita e está disponível na versão 16.8 do React.
+
+*useState*
+
+O `useState` nos permite criar estados em um componente criado a partir de uma função, assim como o `state` presente em componentes criados a partir de classes.
+
+*useEffect*
+
+O `useEffect` é um `Hook` que serve para lidar com os efeitos. Podemos usá-los como os lifeCycles `componentDidMount`, `componentDidUpdate` e `componentWillUnmount`.
+
+*useCallback*
+
+O Hook useCallback recebe como argumentos, uma função de callback e um array. Ele é utilizado para *memorizar funções*. Por causa da maneira como o javascript compara, a função que você cria na primeira vez que um componente é renderizado será diferente daquela criada nas próximas renderizações. Ao colocar essa função dentro do Hook `useCallback`, o React saberá que é a mesma função, assim ela não será criada novamente. Você ainda pode adicionar um array de dependências para acionar um recálculo da função se as dependências mudarem. Portanto, o Hook useCallback é muito útil para evitar *renderizações desnecessárias*.
+
+*useMemo*
+
+O Hook useMemo **é utilizado para memorizar valores**. Ao contrário do useCallback, que armazena em memória a instância da função fornecida, useMemo chama a função fornecida e armazena em memória o seu resultado. Em outras palavras, useMemo armazena em memória um valor calculado.
