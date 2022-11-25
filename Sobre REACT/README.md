@@ -9,7 +9,7 @@ Breve introdução, sobre alguns conceitos extras importantes:
 
 **O que é o Yarn?** O Yarn é um gerenciador de pacotes para aplicar comandos prontos ao código de uma aplicação.
 
-**O que é o React DevTools? **É uma extensão disponível para o Chrome, Firefox e também como um aplicativo independente que permite inspecionar a hierarquia de componentes do React nas Ferramentas do desenvolvedor do navegador.
+**O que é o React DevTools? ** É uma extensão disponível para o Chrome, Firefox e também como um aplicativo independente que permite inspecionar a hierarquia de componentes do React nas Ferramentas do desenvolvedor do navegador.
 
 ### Indice
 
@@ -89,5 +89,29 @@ Separamos o ciclo de vida do React em 4 etapas em que podemos fazer ações dura
 
 ![](https://github.com/maurilosantos/Compartilhando-conhecimento-Dio/blob/main/Sobre%20REACT/assets/ciclo%20de%20vida.png?raw=true)
 
+#### **React CLI**
 
+Create React App é um ambiente confortável para aprender React, e é a melhor maneira de começar um single-page application em React.
+
+Além de configurar seu ambiente de desenvolvimento para utilizar as funcionalidades mais recentes do JavaScript, ele fornece uma experiência de desenvolvimento agradável, e otimiza o seu app para produção. 
+
+Para criar no terminal use: 
+
+```txt
+npx create-react-app nome-do-app
+cd nome-do-app
+npm start
+```
+
+**Adicionando** **navegação** **na** **aplicação**
+
+Em um site acessamos várias páginas, como por exemplo, página inicial, contatos, sobre e perfil. Para navegar entre as páginas de uma aplicação React.JS precisaremos criar rotas, onde cada rota vai representar uma tela.
+
+Para trabalhar com rotas no React vamos utilizar um pacote chamado **React Router Dom** que precisa ser instalado no nosso projeto. É ele que nos auxiliará na criação da navegação.
+
+Com o projeto React já criado, faça:
+
+```tex
+npm install react-router-dom
+```
 
